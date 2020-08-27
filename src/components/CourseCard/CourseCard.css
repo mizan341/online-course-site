@@ -5,3 +5,9 @@
 .totalCard{
     margin-bottom: 30px;
 }
+.cardSizing{
+    border: none;
+}
+.CardTitle {
+    color: tomato;
+}

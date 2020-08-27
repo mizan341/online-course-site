@@ -2,7 +2,7 @@ import React from 'react';
 import CourseCard from '../CourseCard/CourseCard';
 import './Course.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Button, CardDeck, Card, Col, Row } from 'react-bootstrap';
+import { Container, Col, Row, CardDeck } from 'react-bootstrap';
 import fakeData from '../../fakeData';
 import { useState } from 'react';
 import Cart from '../Cart/Cart'
@@ -19,15 +19,17 @@ const Course = () => {
     }
     // console.log(cart);
     return (
-    <div>
+    <div className="courseView">
         <Container>
             <Row>
-                <Col xs={12} md={9}>
-                    {
-                        course.map(course=><CourseCard course={course} addHandler ={addHandler} key ={course.id}></CourseCard>)  
-                    }
+                <Col xs={12} md={7} lg={8} xl={9}>
+                    <CardDeck>
+                        {
+                            course.map(course=><CourseCard course={course} addHandler ={addHandler} key ={course.id}></CourseCard>)  
+                        }
+                    </CardDeck>
                 </Col>
-                <Col xs={6} md={3}>
+                <Col xs = {12} md = {5} lg={4} xl={3}>
                     <Cart cart = {cart}></Cart>
                 </Col>
             </Row>

@@ -1,24 +1,29 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 import './CourseCard.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Button, CardDeck, Card, Col, Row } from 'react-bootstrap';
+import {Button, CardDeck, Card, Col, Row } from 'react-bootstrap';
 
 const CourseCard = (props) => {
-    const {title, price, teacher, url}= props.course;
+    const element = <FontAwesomeIcon icon={faStar} />;
+    const {title, price, teacher, url, duration}= props.course;
     return (
         <div className="totalCard">
-            <CardDeck>
-                <Card>
+            
+                <Card className="cardSizing">
                     <Row>
-                        <Col xs lg = "3" className = "align-self-center" >
-                            <Card.Img variant="top" src={url}/>
+                        <Col xs = {12} md = {12} lg={5} xl = {5} className = "align-self-center">
+                            <Card.Img className="cardImg" variant="top" src={url}/>
                         </Col>
-                         <Col md="9">
+                         <Col xs = {12} md = {12} lg={7} xl = {7}>
                             <Card.Body>
-                                <Card.Title>{title}</Card.Title>
+                                <Card.Title className="text-capitalize pb-0 CardTitle">{title}</Card.Title>
                                 <Card.Text>
                                     <p>By {teacher}</p>
-                                    <h2>${price}</h2>
+                                    <p>Course Duration: {duration}</p>
+                                    <p className="text-primary p-0 m-0">{element}{element}{element}{element}{element}</p>
+                                    <h2 className="p-0 m-0">${price}</h2>
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className = "cardFooter">
@@ -27,7 +32,7 @@ const CourseCard = (props) => {
                         </Col>
                     </Row>
                 </Card>
-            </CardDeck>
+            
         </div>
     );
 };

@@ -1,4 +1,6 @@
-
+.mainBody{
+  background-color: rgb(235, 232, 232);
+}
 .App-link {
   color: #61dafb;
 }

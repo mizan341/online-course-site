@@ -6,6 +6,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/92c952",
     "thumbnailUrl": "https://via.placeholder.com/150/92c952",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"4.99"
   },
   {
@@ -15,6 +16,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/771796",
     "thumbnailUrl": "https://via.placeholder.com/150/771796",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"154.99"
   },
   {
@@ -24,6 +26,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/24f355",
     "thumbnailUrl": "https://via.placeholder.com/150/24f355",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"49.99"
   },
   {
@@ -33,6 +36,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/d32776",
     "thumbnailUrl": "https://via.placeholder.com/150/d32776",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"80"
   },
   {
@@ -42,6 +46,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/f66b97",
     "thumbnailUrl": "https://via.placeholder.com/150/f66b97",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"250"
   },
   {
@@ -51,6 +56,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/56a8c2",
     "thumbnailUrl": "https://via.placeholder.com/150/56a8c2",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"179.99"
   },
   {
@@ -59,6 +65,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/b0f7cc",
     "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"32.50"
   },
   {
@@ -68,6 +75,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/54176f",
     "thumbnailUrl": "https://via.placeholder.com/150/54176f",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"123"
   },
   {
@@ -77,6 +85,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/51aa97",
     "thumbnailUrl": "https://via.placeholder.com/150/51aa97",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"399.99"
   },
   {
@@ -86,6 +95,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/810b14",
     "thumbnailUrl": "https://via.placeholder.com/150/810b14",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"199.99"
   },
   {
@@ -95,6 +105,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/1ee8a4",
     "thumbnailUrl": "https://via.placeholder.com/150/1ee8a4",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"99.99"
   },
   {
@@ -104,6 +115,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/66b7d2",
     "thumbnailUrl": "https://via.placeholder.com/150/66b7d2",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"69"
   },
   {
@@ -113,6 +125,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/197d29",
     "thumbnailUrl": "https://via.placeholder.com/150/197d29",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"77.85"
   },
   {
@@ -122,6 +135,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/61a65",
     "thumbnailUrl": "https://via.placeholder.com/150/61a65",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"56.60"
   },
   {
@@ -131,6 +145,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/f9cee5",
     "thumbnailUrl": "https://via.placeholder.com/150/f9cee5",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"109.50"
   },
   {
@@ -139,6 +154,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/fdf73e",
     "thumbnailUrl": "https://via.placeholder.com/150/fdf73e",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"29"
   },
   {
@@ -147,6 +163,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/9c184f",
     "thumbnailUrl": "https://via.placeholder.com/150/9c184f",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"55.50"
   },
   {
@@ -155,6 +172,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/1fe46f",
     "thumbnailUrl": "https://via.placeholder.com/150/1fe46f",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"29.50"
   },
   {
@@ -163,6 +181,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/56acb2",
     "thumbnailUrl": "https://via.placeholder.com/150/56acb2",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"69"
   },
   {
@@ -171,6 +190,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/8985dc",
     "thumbnailUrl": "https://via.placeholder.com/150/8985dc",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"59.99"
   },
   {
@@ -179,6 +199,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/5e12c6",
     "thumbnailUrl": "https://via.placeholder.com/150/5e12c6",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"45.55"
   },
   {
@@ -187,6 +208,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/45601a",
     "thumbnailUrl": "https://via.placeholder.com/150/45601a",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"24.99"
   },
   {
@@ -195,6 +217,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/e924e6",
     "thumbnailUrl": "https://via.placeholder.com/150/e924e6",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"65"
   },
   {
@@ -203,6 +226,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/8f209a",
     "thumbnailUrl": "https://via.placeholder.com/150/8f209a",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"20"
   },
   {
@@ -211,6 +235,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/5e3a73",
     "thumbnailUrl": "https://via.placeholder.com/150/5e3a73",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"79"
   },
   {
@@ -219,6 +244,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/474645",
     "thumbnailUrl": "https://via.placeholder.com/150/474645",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"219.99"
   },
   {
@@ -227,6 +253,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/c984bf",
     "thumbnailUrl": "https://via.placeholder.com/150/c984bf",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"94.50"
   },
   {
@@ -235,6 +262,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/392537",
     "thumbnailUrl": "https://via.placeholder.com/150/392537",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"229"
   },
   {
@@ -243,6 +271,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/602b9e",
     "thumbnailUrl": "https://via.placeholder.com/150/602b9e",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"4.50"
   },
   {
@@ -251,6 +280,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/372c93",
     "thumbnailUrl": "https://via.placeholder.com/150/372c93",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"144.99"
   },
   {
@@ -259,6 +289,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/a7c272",
     "thumbnailUrl": "https://via.placeholder.com/150/a7c272",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"154.50"
   },
   {
@@ -267,6 +298,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/c70a4d",
     "thumbnailUrl": "https://via.placeholder.com/150/c70a4d",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"20"
   },
   {
@@ -275,6 +307,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/501fe1",
     "thumbnailUrl": "https://via.placeholder.com/150/501fe1",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"34.50"
   },
   {
@@ -283,6 +316,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/35185e",
     "thumbnailUrl": "https://via.placeholder.com/150/35185e",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"41.50"
   },
   {
@@ -291,6 +325,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/c96cad",
     "thumbnailUrl": "https://via.placeholder.com/150/c96cad",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"64.50"
   },
   {
@@ -299,6 +334,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/4d564d",
     "thumbnailUrl": "https://via.placeholder.com/150/4d564d",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"51"
   },
   {
@@ -307,6 +343,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/ea51da",
     "thumbnailUrl": "https://via.placeholder.com/150/ea51da",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"222"
   },
   {
@@ -315,6 +352,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/4f5b8d",
     "thumbnailUrl": "https://via.placeholder.com/150/4f5b8d",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"56.50"
   },
   {
@@ -323,6 +361,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/1e71a2",
     "thumbnailUrl": "https://via.placeholder.com/150/1e71a2",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"78.50"
   },
   {
@@ -331,6 +370,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/3a0b95",
     "thumbnailUrl": "https://via.placeholder.com/150/3a0b95",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"111"
   },
   {
@@ -339,6 +379,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/659403",
     "thumbnailUrl": "https://via.placeholder.com/150/659403",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"100"
   },
   {
@@ -347,6 +388,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/ca50ac",
     "thumbnailUrl": "https://via.placeholder.com/150/ca50ac",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"99"
   },
   {
@@ -355,6 +397,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/6ad437",
     "thumbnailUrl": "https://via.placeholder.com/150/6ad437",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"88.88"
   },
   {
@@ -363,6 +406,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/29fe9f",
     "thumbnailUrl": "https://via.placeholder.com/150/29fe9f",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"77.77"
   },
   {
@@ -371,6 +415,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/c4084a",
     "thumbnailUrl": "https://via.placeholder.com/150/c4084a",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"55.55"
   },
   {
@@ -379,22 +424,25 @@ var courseData = [
     "url": "https://via.placeholder.com/600/e9b68",
     "thumbnailUrl": "https://via.placeholder.com/150/e9b68",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"44.44"
   },
   {
     "id": 47,
-    "title": "et soluta est",
-    "url": "Angular - The Complete Guide (2020 Edition)",
+    "title": "Angular - The Complete Guide (2020 Edition)",
+    "url": "https://via.placeholder.com/600/b4412f",
     "thumbnailUrl": "https://via.placeholder.com/150/b4412f",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"11.11"
   },
   {
     "id": 48,
-    "title": "ut esse id",
-    "url": "Complete C# Unity Game Developer 2D",
+    "title": "Complete C# Unity Game Developer 2D",
+    "url": "https://via.placeholder.com/600/68e0a8",
     "thumbnailUrl": "https://via.placeholder.com/150/68e0a8",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"33.33"
   },
   {
@@ -403,6 +451,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/2cd88b",
     "thumbnailUrl": "https://via.placeholder.com/150/2cd88b",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"22.22"
   },
   {
@@ -411,6 +460,7 @@ var courseData = [
     "url": "https://via.placeholder.com/600/9e59da",
     "thumbnailUrl": "https://via.placeholder.com/150/9e59da",
     "teacher" : "Jhankar Mahbub",
+    "duration":"40hrs",
     "price" :"66.66"
   }
 ]

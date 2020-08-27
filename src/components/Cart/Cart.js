@@ -1,43 +1,40 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import './Cart.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Button } from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
+import CartDown from '../CartDown/CartDown';
 
 const Cart = (props) => {
+    const element = <FontAwesomeIcon icon={faShoppingCart} />;
     const cart = props.cart;
     // console.log(cart);
-    const totalPrice = cart.reduce((total, cou) => Number(total) + Number(cou.price), 0);
+    const totalPrice = cart.reduce((total, course) => Number(total) + Number(course.price), 0);
     let total = totalPrice.toFixed(2);
 
-    // let tax = (total * 0.10).toFixed(2)
+    let tax = (total * 0.02).toFixed(2);
+    let totalTax =Number(tax);
 
-    // let before = Number(total) + Number(ship(total));
-    // let beforeTax = before.toFixed(2);
-    // let grand = Number(total) + Number(ship(total)) + Number(tax);
-    // let grandTotal = grand.toFixed(2);
+    let grand = Number(total) + Number(tax);
+    let grandTotal = Math.round(grand);
     return (
-        <div className="cartItem">
-            <h3>Order Summery</h3>
-            <p>Items ordered: {cart.length} </p>
-            <p>Items Price: {total} </p>
-            <p>Shipping Cost: </p>
-            <p>Tax+Vat: </p>
-            <h4>Grand Total:</h4>
-            <Button variant="primary">Review Your Order</Button>
-
+        <div>
+            <div className = "cartItem">
+                <h1 className="text-danger text-center p-3">{element}(<span className="text-warning p-1">{cart.length}</span>) </h1>
+                <h4 className="text-uppercase pb-4 pt-4 text-primary"><u>Order Summery</u></h4>
+                <h5 className="text-warning">{element} Course ordered: (<span className="text-danger p-1">{cart.length}</span>) </h5>
+                <p>Course(s) Price: ${total} </p>
+                <p>Tax+Vat: ${totalTax}</p>
+                <h4 className="text-danger">Grand Total: ${grandTotal}</h4>
+                <Button variant="primary">Review Course(s)</Button>
+            </div>
+            <div>
+                <CartDown></CartDown>
+            </div>
         </div>
+        
     );
 };
-function ship(tt) {
-    let shipping = 0;
-    if (tt > 50) {
-        shipping = 0;
-    } else if (tt > 30) {
-        shipping = 4.99;
-    } else if (tt > 15) {
-        shipping = 12.99;
-    }
-    return shipping.toFixed(2);
-}
 
 export default Cart;
